@@ -1,43 +1,29 @@
 "use client"
 
 import Link from "next/link"
-// import { usePathname } from "next/navigation";
-// import { useEffect, useState } from "react";
-// import Navigating from "./Navigating";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import Navigating from "./Navigating";
 
 const Navbar = () => {
 
-    // const [isRouting, setIsRouting] = useState(false)
-    // const [prevPath, setPrevPath] = useState("/")
-    // const path = usePathname()
+    const [isRouting, setIsRouting] = useState(false)
+    const [prevPath, setPrevPath] = useState("/")
+    const path = usePathname()
 
-    // useEffect(() =>{
-    //     if(prevPath != path){
-    //         // setIsRouting(true)
+    useEffect(() =>{
+        if(prevPath != path){
+            const timeout = setTimeout(() => {
+                setPrevPath(path)
+            }, 2000)
 
-    //         // setPrevPath(path)
-    //         const timeout = setTimeout(() => {
-    //             setPrevPath(path)
-    //         }, 2000)
-
-    //         return () => clearTimeout(timeout)
-    //     }
-    // }, [path, prevPath])
-
-    // useEffect(() => {
-    //     if(isRouting){
-    //         setPrevPath(path)
-    //         const timeout = setTimeout(() => {
-    //             setIsRouting(false)
-    //         }, 2000)
-
-    //         return () => clearTimeout(timeout)
-    //     }
-    // }, [isRouting])
+            return () => clearTimeout(timeout)
+        }
+    }, [path, prevPath])
     
     return(
         <>
-        {/* {path != prevPath && <Navigating/>} */}
+        {path != prevPath && <Navigating/>}
         <nav className="w-[80%] md:w-[60%] lg:w-[30%] max-w-[500px]  fixed bottom-[-70px] left-[10%] border-2 border-solid border-white rounded-full pt-8 pb-20 z-10">
             <ul className="w-full flex justify-around items-center">
                 <li className="text-white font-semibold text-md">
