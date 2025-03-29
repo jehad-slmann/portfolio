@@ -3,7 +3,7 @@ import React from 'react'
 export const ContactMe = () => {
   return (
     <main 
-    style={{backgroundImage: "url(/images/bg4.jpg)"}} 
+    style={{backgroundImage: "url(./images/bg4.jpg)"}} 
     className="w-screen h-screen bg-cover bg-center"
     >
       <header className="w-[80%] md:max-w-[60%] mx-auto pt-[40px] pb-[60px]">

@@ -3,7 +3,7 @@ import SkillsSlider from "@/components/SkillsSlider"
 const Skills = () => {
   return (
     <main 
-    style={{backgroundImage: "url(/images/bg2.jpg)"}}    
+    style={{backgroundImage: "url(./images/bg2.jpg)"}}    
     className="w-screen h-screen bg-cover bg-center relative flex flex-col justify-evenly items-center"
     >
         <header className="w-[80%] md:max-w-[60%] z-3">

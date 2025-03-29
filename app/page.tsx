@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main 
-    style={{backgroundImage: "url(/images/bg1.jpg)"}}
+    style={{backgroundImage: "url(./images/bg1.jpg)"}}
     className="w-screen h-screen bg-cover bg-center relative flex justify-center">
       <section className="w-[80%] md:max-w-[60%] mt-[30vh] z-3">
         <h2 className="text-2xl md:text-3xl lg:text-5xl text-center font-bold ">Jehad Slman</h2>
