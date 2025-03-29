@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ContactMe = () => {
+const ContactMe = () => {
   return (
     <main 
     style={{backgroundImage: "url(./images/bg4.jpg)"}} 
@@ -43,4 +43,4 @@ export const ContactMe = () => {
   )
 }
 
-export default ContactMe
+export default ContactMe;
