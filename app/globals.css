@@ -11,11 +11,13 @@
     }
 }
 
-@keyframes scaling{
+@keyframes navigating{
     0%{
-        transform: scale(1);
+        height: 100vh;
+        display: block;
     }
     100%{
-        transform: scale(5);
+        height: 0;
+        display: hidden;
     }
 }

@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const ProjectCard = ({img, title, description}: cardProps) => {
     return(
-        <section className="group perspective-[1000px] max-w-[400px] max-h-[400px]">
+        <section className="group perspective-[1000px] max-h-[500px]">
             <div className="w-full h-full rounded-xl shadow-xl relative transition-all duration-500 transform-3d group-hover:rotate-y-180 group-hover:cursor-pointer">
                 <div className="inset-0 absolute">
                     <Image

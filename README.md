@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Portfolio Overview
+A modern, responsive portfolio website built with:
 
-## Getting Started
+Next.js (App Router)
+TypeScript
+Tailwind CSS
 
-First, run the development server:
+✨ Features
 
-```bash
+Responsive design for all devices
+Fast page loads with Next.js optimizations
+Clean, modern UI with Tailwind CSS
+Type-safe code with TypeScript
+
+🛠️ Development Setup
+
+Prerequisites
+
+Node.js (v20 or later recommended)
+npm/yarn/pnpm
+
+Installation
+
+# Clone the repository
+git clone https://github.com/jehad-slmann/portfolio.git
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Build for Production
 
-## Learn More
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start Production Server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm start
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📂 Project Structure
+Copy
+/
+├── app/                # App router pages
+├── components/         # Reusable components
+├── public/             # Static assets
+
+
+🔧 Technologies Used
+
+Next.js 14 - React framework for server-side rendering
+TypeScript - Static type checking
+Tailwind CSS - Utility-first CSS framework
+
+
+🌐 Live Demo
+https://jehad-slmann.github.io/portfolio
+
+
+📬 Contact
+
+Email: jehad.slmann@gmail.com
+LinkedIn: https://www.linkedin.com/in/jehad-slman-42a595221/
+
